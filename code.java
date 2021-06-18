@@ -3,12 +3,9 @@ This program prompts the user for two integers and then prints their sum, differ
 
 import java.util.Scanner;
 public class KFS_ArithmeticWithInputs_Main
-
-{ 
-
+    { 
     public static void main (String [] args)
-    
-    {
+        {
         Scanner in = new Scanner(System.in);
         System.out.print("Please enter the bigger integer: ");
         int biginteger = in.nextInt(); //gets the value for the bigger integer from the user
@@ -27,7 +24,5 @@ public class KFS_ArithmeticWithInputs_Main
         
         double average = (biginteger + smallinteger)/2.0 ;//calculates the average
         System.out.println("Average: " + average);//prints the average
-        
+        }   
     }
-    
-}
